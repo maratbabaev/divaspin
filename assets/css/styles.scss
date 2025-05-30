@@ -937,6 +937,14 @@ header {
 		text-align: left;
 		vertical-align: top;
 	}
+	tr {
+		&:first-child {
+			td {
+				text-align: center;
+				font-weight: 900;
+			}
+		}
+	}
 }
 
 .table--style {
